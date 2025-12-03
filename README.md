@@ -74,6 +74,7 @@ raw.user_homework_submission
 
 Les schémas détaillés sont documentés dans les fichiers YAML du dossier docs/.
 
+## Structure du projet
 <img width="791" height="609" alt="Capture d’écran 2025-12-03 à 18 24 44" src="https://github.com/user-attachments/assets/e94617e0-9c2a-4286-a953-fcadcdf1dfb8" />
 
 ### Utilisation
