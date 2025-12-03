@@ -8,7 +8,7 @@
 ---
 
 ### Outils et technologies utilisés  
-`SQL` • `Google BigQuery` • `Metabase` • `VS Code` • `Gamma.app` • `Markdown`
+`SQL` • `Google BigQuery` • `Metabase` • `VS Code`
 
 ---
 
