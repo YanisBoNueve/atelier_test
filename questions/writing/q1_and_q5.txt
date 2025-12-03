@@ -1,0 +1,25 @@
+[Réponse à Q1]
+Le jeu de données couvre le parcours apprenant de bout en bout :
+- training_sales : une ligne par apprenant inscrit avec le montant payé (item_amount). Permet de suivre le chiffre d’affaires et le nombre d’inscrits.
+- training_user_progress_snapshot : des instantanés historisés (SCD) de l’avancement par apprenant et formation, avec training_progress (0 à 1) et les dates de validité (dbt_valid_from / dbt_valid_to). On y observe potentiellement des lignes actives multiples (dbt_valid_to NULL) et des progressions NULL qui peuvent signaler un défaut de suivi.
+- user_homework_submission : chaque remise de devoir avec la note et la date de correction. Certaines lignes n’ont pas de corrected_at ou de score (homework_score NULL), ce qui limite la mesure des travaux terminés et notés.
+
+Principaux indicateurs exploitables :
+- Ventes : total CA et prix moyen par formation via training_sales.
+- Progression : avancement moyen/ médian, part d’apprenants actifs, détection de régressions ou stagnations à partir des snapshots.
+- Engagement pédagogique : nombre de travaux soumis/corrigés, délais de correction, distribution des notes.
+
+Points de qualité de données et limites :
+- Présence de valeurs NULL (progression, scores, dates de correction) pouvant biaiser les moyennes et les ratios.
+- Cohérence SCD à vérifier : plusieurs versions actives ou dates de validité incohérentes peuvent affecter l’historique de progression.
+- Alignement ventes/progression : des utilisateurs peuvent avoir une vente sans progression ou l’inverse, ce qui complique le calcul de marge ou de conversion.
+- Notes hors plage (0–100) ou progressions hors [0,1] doivent être écartées ou corrigées pour les analyses.
+
+[Réponse à Q5]
+Analyses supplémentaires pour comprendre le décrochage et identifier des leviers :
+- Cohortes temporelles : comparer la progression et la complétion des TP par cohorte d’inscription (ex. par mois) pour repérer des mois ou des formations avec plus de décrocheurs.
+- Trajectoires d’usage : suivre la courbe d’avancement dans le temps (jours depuis la date de début) et détecter les phases de stagnation prolongée ; segmenter par formation et profil d’apprenant.
+- Qualité et rapidité des corrections : analyser le délai entre submition_date et corrected_at et son lien avec la poursuite de la formation ; identifier des goulots d’étranglement.
+- Impact des devoirs sur la réussite : mesurer si le nombre de TP corrigés et la note moyenne prédissent la complétion ; tester des seuils (ex. 3 TP corrigés) comme indicateurs précoces de succès/échec.
+- Alignement business vs usage : confronter CA reconnu (proportionnel à l’avancement) avec l’activité réelle pour repérer des revenus à risque et prioriser le support.
+- Data quality renforcée : systématiser les contrôles (NULL, plages de valeurs, doublons SCD) et enrichir le tracking (statut de correction explicite, date de début fiable, identifiants uniques) afin d’améliorer la confiance dans les analyses et l’identification des décrocheurs.
