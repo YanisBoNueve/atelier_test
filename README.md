@@ -109,7 +109,7 @@ Ces requêtes servent de base pour alimenter les dashboards Metabase.
 
 Le dossier questions/dashboards/ contient des exports PDF des principaux tableaux de bord construits dans Metabase :
 
-Questions_Principales.pdf
+**Questions_Principales.pdf**
 
 Meilleure progression le premier mois (progression + TP corrigés),
 
@@ -117,7 +117,7 @@ Formation avec les meilleurs résultats pédagogiques,
 
 Marge par formation (CA reconnu vs coût de correction).
 
-Visualisations_exploration.pdf
+**Visualisations_exploration.pdf**
 
 Évolution mensuelle des inscriptions et du CA,
 
@@ -130,34 +130,34 @@ Les dashboards sont conçus pour des parties prenantes non techniques : titres m
 
 Quelques enseignements clés issus de l’analyse :
 
-CAP Fleuriste
+**CAP Fleuriste**
 
 meilleure progression moyenne, dès le premier mois et en fin de parcours,
 
 nombre de travaux pratiques corrigés par apprenant le plus élevé,
 
 notes de TP solides (~89/100).
-→ C’est la formation la plus équilibrée pédagogiquement.
+**C’est la formation la plus équilibrée pédagogiquement.**
 
-CAP Monteur en Installations Thermiques (MIT)
+**CAP Monteur en Installations Thermiques (MIT)**
 
 progression correcte mais inférieure à Fleuriste,
 
 très peu de TP corrigés par apprenant,
 
 notes de TP très élevées (~96/100) pour ceux qui en rendent.
-→ Formation à fort potentiel, mais avec un risque de manque de feedback pour une partie des apprenants.
+**Formation à fort potentiel, mais avec un risque de manque de feedback pour une partie des apprenants.**
 
-CAP Métiers de la mode – Vêtement flou
+**CAP Métiers de la mode – Vêtement flou**
 
 progression moyenne la plus faible,
 
 notes de TP plus basses (~84/100),
 
 volume de TP corrigés intermédiaire.
-→ C’est la formation la plus fragile en termes d’expérience apprenant.
+**C’est la formation la plus fragile en termes d’expérience apprenant.**
 
-Sur le plan financier :
+**Sur le plan financier :**
 
 Le CA reconnu est calculé de façon réaliste (proportionnelle à l’avancement réel),
 
