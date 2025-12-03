@@ -1,0 +1,26 @@
+version: 2
+
+models:
+  - name: training_user_progress_snapshot
+    description: "Ce modèle fournit une vue historisée de la progression des apprenants par formation,
+      permettant de suivre l’évolution de leur avancement (training_progress) dans le temps
+      grâce aux champs dbt_valid_from / dbt_valid_to."
+
+    columns:
+      - name: user_id
+        description: "Identifiant de l'apprenant"
+
+      - name: training_name
+        description: "Nom de la formation CAP suivie par l'apprenant"
+
+      - name: training_start_date
+        description: "Date de début de formation renseignée lors de l'inscription."
+
+      - name: training_progress
+        description: "Score d'avancement représentant la progression de l'apprenant dans sa formation à la date du snapshot."
+
+      - name: dbt_valid_from
+        description: "Début de la période de validité du snapshot (géré automatiquement par dbt)."
+
+      - name: dbt_valid_to
+        description: "Fin de la période de validité du snapshot (null si en cours)."

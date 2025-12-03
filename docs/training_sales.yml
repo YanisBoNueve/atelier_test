@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: training_sales
+    description: "Table contenant les montants de vente associés aux apprenants inscrits à une
+      formation CAP."
+
+    columns:
+      - name: user_id
+        description: "Identifiant de l'apprenant"
+
+      - name: item_amount
+        description: "Montant payé pour la formation par l'apprenant."

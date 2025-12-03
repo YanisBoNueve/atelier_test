@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: user_homework_submission
+    description: "Table listant l'ensemble des travaux pratiques remis et corrigés par les apprenants
+      inscrits à une formation CAP." 
+
+    columns:
+      - name: user_id
+        description: "Identifiant de l'apprenant (subscription_id)."
+
+      - name: homework_id
+        description: "Identifiant unique du travail pratique."
+
+
+      - name: homework_name
+        description: "Nom ou intitulé du travail pratique."
+
+
+      - name: submition_date
+        description: "Date de soumission du TP par l'apprenant."
+
+
+      - name: homework_score
+        description: "Score obtenu par l'apprenant pour ce TP."
