@@ -74,37 +74,8 @@ raw.user_homework_submission
 
 Les schémas détaillés sont documentés dans les fichiers YAML du dossier docs/.
 
-Structure du projet
-ATELIER_TEST/
-├── data/
-│   └── raw/
-│       ├── training_sales.csv
-│       ├── training_user_progress_snapshot.csv
-│       └── user_homework_submission.csv
-│
-├── docs/
-│   ├── Cas pratique - Data Analyst @ L’Atelier des Chefs.docx   # Énoncé métier
-│   ├── training_sales.yml                                       # Schéma training_sales
-│   ├── training_user_progress_snapshot.yml                      # Schéma progression
-│   └── user_homework_submission.yml                             # Schéma travaux pratiques
-│
-├── presentation/
-│   ├── Ameliorer-la-performance-de-nos-formations.pdf           # Slides Gamma exportées
-│   └── Ameliorer-la-performance-de-nos-formations.md (optionnel)
-│
-├── questions/
-│   ├── dashboards/
-│   │   ├── Questions_Principales.pdf                            # Dashboard Q2–Q4
-│   │   └── Visualisations_exploration.pdf                       # Viz exploratoires
-│   │
-│   ├── sql/
-│   │   ├── data_quality_checks.sql                              # Contrôles de qualité de données
-│   │   └── q2_q3_q4_analysis.sql                                # Requêtes principales d’analyse
-│   │
-│   └── writing/
-│       └── q1_and_q5.txt.pdf                                    # Réponses rédigées aux Q1 et Q5
-│
-└── README.md
+<img width="746" height="632" alt="Capture d’écran 2025-12-03 à 18 02 03" src="https://github.com/user-attachments/assets/63327acb-ebcf-4a13-a9cb-16a4a530b041" />
+
 
 ### Utilisation
 1. Exécuter les contrôles de qualité
