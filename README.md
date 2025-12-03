@@ -26,7 +26,7 @@
 
 ## Aperçu
 
-**ATELIER_TEST** est un cas pratique de Data Analyst pour **L’Atelier des Chefs**, organisme de formation en ligne préparant notamment à des CAP (CAP Fleuriste, CAP Métiers de la mode – Vêtement flou, CAP Monteur en Installations Thermiques).
+**ATELIER_TEST** est un cas pratique de Data Analyst pour **L’Atelier des Chefs**, organisme de formation en ligne préparant notamment à des CAP (CAP Fleuriste, CAP Métiers de la mode, Vêtement flou, CAP Monteur en Installations Thermiques).
 
 Le projet part de trois tables brutes pour construire des **indicateurs métier lisibles** autour de :
 
