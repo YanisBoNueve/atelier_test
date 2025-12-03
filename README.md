@@ -74,7 +74,7 @@ raw.user_homework_submission
 
 Les schémas détaillés sont documentés dans les fichiers YAML du dossier docs/.
 
-</ img width="738" height="603" alt="Capture d’écran 2025-12-03 à 18 22 17" src="https://github.com/user-attachments/assets/acdda50e-2a47-40a8-8b74-4f1bb08018d9" />
+<img width="791" height="609" alt="Capture d’écran 2025-12-03 à 18 24 44" src="https://github.com/user-attachments/assets/e94617e0-9c2a-4286-a953-fcadcdf1dfb8" />
 
 ### Utilisation
 1. Exécuter les contrôles de qualité
