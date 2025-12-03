@@ -122,12 +122,7 @@ Visualisations_exploration.pdf
 Évolution mensuelle des inscriptions et du CA,
 
 Répartition des apprenants par niveau d’avancement,
-
-Évolution de la progression moyenne sur les 90 premiers jours,
-
-Heatmap de taux d’apprenants “avancés” (≥ 50 % de progression) par mois et par formation,
-
-Nuage de points CA reconnu vs coût pédagogique par apprenant.
+etc
 
 Les dashboards sont conçus pour des parties prenantes non techniques : titres métier, métriques lisibles, absence de jargon SQL.
 
