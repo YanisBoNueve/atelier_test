@@ -42,7 +42,7 @@ Les principales questions adressées sont :
    - le chiffre d’affaires est reconnu proportionnellement à l’avancement de chaque apprenant,
    - et chaque correction de TP est valorisée à **5 €** ?
 
-Le livrable final est un ensemble de **requêtes SQL BigQuery**, complété par des **dashboards Metabase** et une **présentation Gamma** orientée parties prenantes non techniques.
+Le livrable final est un ensemble de **requêtes SQL BigQuery**, complété par des **dashboards Metabase** et une **présentation PowerPoint** orientée parties prenantes non techniques.
 
 ---
 
